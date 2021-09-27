@@ -7,7 +7,7 @@ export default function SessionTitle({
   breakDuration,
   isTimerRunning,
 }) {
-
+  if (session === null) return null;
   
 
   return (
