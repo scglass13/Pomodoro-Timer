@@ -8,6 +8,10 @@ export default function SessionTitle({
   isTimerRunning,
 }) {
   if (session === null) return null;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 4d1b345cee208b4e24362e6ac2fa77507c1fbace
 
   return (
     <div>
